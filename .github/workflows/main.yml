@@ -13,4 +13,4 @@ jobs:
         echo My name is P3TERX.
     - name: test git
       run: |
-        git remote -v
+       echo My name is P3TERX.
