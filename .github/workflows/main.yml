@@ -8,9 +8,17 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
     - name: Hello World
       run: |
         echo My name is P3TERX.
     - name: test git
       run: |
-       echo My name is P3TERX.
+       echo test git begin.
+       git pull --unshallow
+       git remote add origin-public https://github.com/sebaxakerhtc/rdpwrap.ini.git
+       git fetch origin-public
+       git merge --no-edit origin-public/master
+       git push
+       echo test git end.
+       
