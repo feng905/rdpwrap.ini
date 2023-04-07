@@ -5,7 +5,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 env:
-  GITHUB_TOKEN: ${{ secrets.RDPWRAP_TOKEN }}
+  GITHUB_TOKEN: ${{ RDPWRAP_TOKEN }}
 jobs:
 
   run:
