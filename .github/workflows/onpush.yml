@@ -1,0 +1,12 @@
+name: New-Commit-Comming
+
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: send-email
+        run: |
+         git branch -av
