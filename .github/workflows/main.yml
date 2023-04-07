@@ -1,0 +1,11 @@
+name: timer_pull
+on:
+  schedule:
+    - cron: "5 * * * *"
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Hello World
+      run: |
+        echo My name is P3TERX.
