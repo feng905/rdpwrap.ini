@@ -26,6 +26,6 @@ jobs:
        echo $GITHUB_TOKEN
        git remote -v
        git pull
-       git push https://feng905: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@github.com/feng905/rdpwrap.ini.git HEAD:master
+       git push https://feng905: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@github.com/feng905/rdpwrap.ini HEAD:master
        echo test git end.
        
