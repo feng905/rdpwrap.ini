@@ -5,7 +5,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 env:
-  GITHUB_TOKEN: ${{ secrets.SERCET_RDPWRAP_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.RDPWRAP_TOKEN }}
 jobs:
 
   run:
@@ -22,10 +22,10 @@ jobs:
        git remote add origin-public https://github.com/sebaxakerhtc/rdpwrap.ini.git
        git fetch origin-public
        git merge --no-edit origin-public/master
-       git remote set-url origin https://feng905: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@github.com/feng905/rdpwrap.ini.git
+       git remote set-url origin https://feng905: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@github.com/feng905/rdpwrap.ini.git
        echo $GITHUB_TOKEN
        git remote -v
        git pull
-       git push https://feng905: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@github.com/feng905/rdpwrap.ini HEAD:master
+       git push https://feng905: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@github.com/feng905/rdpwrap.ini HEAD:master
        echo test git end.
        
