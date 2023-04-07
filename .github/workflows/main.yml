@@ -11,3 +11,6 @@ jobs:
     - name: Hello World
       run: |
         echo My name is P3TERX.
+    - name: test git
+      run: |
+        git remote -v
