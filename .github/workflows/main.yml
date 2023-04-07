@@ -22,7 +22,7 @@ jobs:
        git remote add origin-public https://github.com/sebaxakerhtc/rdpwrap.ini.git
        git fetch origin-public
        git merge --no-edit origin-public/master
-       git remote set-url origin https://feng905:$GITHUB_TOKEN@github.com/feng905/rdpwrap.ini
+       git remote set-url origin https://feng905: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@github.com/feng905/rdpwrap.ini
        echo $GITHUB_TOKEN
        git remote -v
        git pull
