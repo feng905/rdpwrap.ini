@@ -23,6 +23,7 @@ jobs:
        git fetch origin-public
        git merge --no-edit origin-public/master
        git remote set-url origin https://$GITHUB_TOKEN@github.com/feng905/rdpwrap.ini
+       echo $GITHUB_TOKEN
        git remote -v
        git pull
        git push 
