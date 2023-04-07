@@ -1,7 +1,7 @@
 name: timer_pull
 on:
-  #schedule:
-  #  - cron: "5,10,15,25,35,45,55 * * * *"
+  schedule:
+    - cron: "*/30 * * * *"
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 env:
@@ -15,17 +15,14 @@ jobs:
     - name: Hello World
       run: |
         echo My name is P3TERX.
-    - name: test git
+    - name: check and pull latest rdpwrap.ini
       run: |
        echo test git begin.
        git pull --unshallow
        git remote add origin-public https://github.com/sebaxakerhtc/rdpwrap.ini.git
        git fetch origin-public
        git merge --no-edit origin-public/master
-       #git remote set-url origin https://feng905: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@github.com/feng905/rdpwrap.ini.git
-       echo $GITHUB_TOKEN
-       git remote -v
        git pull
        git push https://feng905:$GITHUB_TOKEN@github.com/feng905/rdpwrap.ini HEAD:master
-       echo test git end.
+       echo check and pull latest rdpwrap.ini end.
        
