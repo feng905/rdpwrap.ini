@@ -1,7 +1,7 @@
 name: timer_pull
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/30 * * * *" # 每半小时执行
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 env:
