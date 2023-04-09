@@ -18,13 +18,12 @@ jobs:
     - name: check and pull latest rdpwrap.ini
       run: |
        echo test git begin.
+       git config --global user.email "feng@qq.com"
+       git config --global user.name "workflows"
        git pull --unshallow
        git remote add origin-public https://github.com/sebaxakerhtc/rdpwrap.ini.git
        git fetch origin-public
        git merge --no-edit origin-public/master
-       git pull
-       git config --global user.email "feng@qq.com"
-       git config --global user.name "workflows"
        git push https://feng905:$GITHUB_TOKEN@github.com/feng905/rdpwrap.ini HEAD:master
        echo check and pull latest rdpwrap.ini end.
        
