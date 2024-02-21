@@ -1,7 +1,5 @@
 # RDPWrap.ini for RDP Wrapper Library by Stas'M
 
-$${\color{red}Do \space not \space install \space on \space 24H2 \space as \space it \space not \space work \space for \space now!}$$
-
 ## [Discord discussion](https://discord.gg/N27yFftWP3)
   
 <b>IMPORTANT!</b>
@@ -18,6 +16,7 @@ A: [This video](https://youtu.be/7ZjgehDztBQ) and [this new video](https://youtu
 
 <details>
 <summary><b>History:</b></summary>
+<p>21.02.2024: added support for <b>17763.10021_x64</b>
 <p>19.02.2024: added support for <b>22621.3227</b> and <b>.23620.1000</b>
 <p>16.02.2024: added support for <b>26058.1000</b> thanks to @udygct
 <p>14.02.2024: added support for <b>22000.2777</b> and <b>20348.2322_x64</b>
