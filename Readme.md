@@ -28,6 +28,7 @@ For most users, the recommended approach is to download the complete latest `rdp
 <details>
 <summary><b>History:</b></summary>
 
+<p>09.09.2026: added support for <b>10.0.26100.9444</b></p>
 <p>28.08.2026: added support for <b>10.0.26100.9278 and 10.0.28000.2804</b></p>
 <p>27.08.2026: added support for <b>10.0.29639.1000</b></p>
 <p>26.08.2026: added support for <b>10.0.26100.1830 and 10.0.26100.9223</b></p>
